@@ -1,1 +1,0 @@
-ldapmodify -x -D cn=admin,dc=s19,dc=be -W -H ldap:// -f mobile-phone.ldif
