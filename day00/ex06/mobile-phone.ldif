@@ -1,3 +1,4 @@
-dn: uid=nde-kerp,ou=people,dc=s19,dc=bechangetype: modifydelete: pouette
+dn: uid=nde-kerp,ou=people,dc=s19,dc=be
+changetype: modify
 add: mobile
 mobile: 0477411847
