@@ -1,6 +1,5 @@
 int     ft_putchar(char c);
 
-void    jp_putchar(char x, char y, char z);
 
 void    ft_print_comb(void)
 {
