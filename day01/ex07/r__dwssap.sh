@@ -1,7 +1,7 @@
 ##
 # remove comments -> grep -v '^#'
 # extract login name -> cut -f 1 -d ':'
-# ever other line starting form the second (odd) -> sed -n "n;p"
+# ever other line starting form the second (odd) -> sed -n "p;n"
 # reverse login name (nelis -> silen) -> rev
 # sort alfb and reverse -> sort -r
 # between line numbers -> head -n +"$FT_LINE2" | tail -n+"$FT_LINE1"

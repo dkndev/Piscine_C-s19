@@ -1,1 +1,1 @@
-ifconfig | grep ether | cut -d' ' -f2
+ifconfig | grep ether | awk -F 'media' '{print $1}'| awk 'NF' | cut -d ' ' -f2
